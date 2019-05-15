@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>trains</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="">
+
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-2">
+					<div id="time"></div>
+					<button id="mainButton" type="button" class="btn  w-100" onclick="generate();">Генерувати</button>
+				<!-- 	<a id="rebootButton" class="w-100 d-none" href="javascript:window.location.reload();"><img src="refresh.png" alt="Refresh"></a> -->
+				</div>
+				<!-- <div id="getfile" class="col-8"></div> -->
+				<div id="container"></div>
+				</div>
+			<table class="table col-8">
+				<thead>
+					<tr>
+						<th scope="col">Номер потягу</th>
+						<th scope="col">Пункт відправлення</th>
+						<th scope="col">Пункт прибуття</th>
+						<th scope="col">День відправлення</th>
+						<th scope="col">День прибуття</th>
+						<th scope="col">Вартість квитка</th>
+						<th scope="col">Таймер</th>
+					</tr>
+				</thead>
+				<tbody id="tableBody">
+
+				</tbody>
+			</table>
+		</div>
+	
+
+	<script src="cities.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
